@@ -63,3 +63,8 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\obj\Debug\net5.0\ref\WebApiDDD.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\obj\Debug\net5.0\WebApiDDD.pdb
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\obj\Debug\net5.0\WebApiDDD.genruntimeconfig.cache
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Application.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Application.pdb
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\CrossCutting.IoC.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\CrossCutting.IoC.pdb

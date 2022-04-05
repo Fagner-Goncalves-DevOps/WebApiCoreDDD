@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aTlLlrXaTgz/cgt24IzUMuN0/20XZikSDv5coe/USeG1TCS9v9oGk+TSLEUq0DLQOm8rFZUgZAPUtGDyRqJsbw==",
+  "dgSpecHash": "qj4GLBRzBWqHb+CHtIOgMKftDOIsiyq/JxtPE8+HncZLKXLwJaUe4m+VSaFDJIt3tlHTO60JFemsj8aHhmW7rQ==",
   "success": true,
   "projectFilePath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\WebApiDDD\\WebApiDDD.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,7 @@
     "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
-    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

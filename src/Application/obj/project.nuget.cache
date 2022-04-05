@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k3QA3NahrwIrmmeqPrWFzO1KDA1IH9F/9OagRlgWI3nVBn4rDhn6p+cyU3votLwOFBPzqisYUnBg2D081BnYzw==",
+  "dgSpecHash": "SVwqnqW9d2xmExpVfbpz4OjAGqXaayHwAUWOHL1sOIN2mrrJv1gNARfgeTQWkyLopxdBEEtzhT1MKcobJXGF8w==",
   "success": true,
-  "projectFilePath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\ApplicationApp.csproj",
+  "projectFilePath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

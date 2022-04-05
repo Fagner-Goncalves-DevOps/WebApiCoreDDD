@@ -1,3 +1,4 @@
+using CrossCutting.IoC;
 using Infra.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,6 +36,9 @@ namespace WebApiDDD
                         // x => x.MigrationsAssembly("DashTelecom.Api") //  add para funcionar devido as alterações de nomes
                     ).EnableSensitiveDataLogging();
             });
+
+            NativeDependencyInjectionConfig.RegisterServices(services);
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
