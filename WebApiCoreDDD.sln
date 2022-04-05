@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data", "src\Infra.Data\Infra.Data.csproj", "{6F7921ED-02E3-4003-B263-AF89027F9C17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDDD", "src\WebApiDDD\WebApiDDD.csproj", "{CDC31BDC-A4B1-477C-BE44-A377855FB2AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{6F7921ED-02E3-4003-B263-AF89027F9C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7921ED-02E3-4003-B263-AF89027F9C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7921ED-02E3-4003-B263-AF89027F9C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC31BDC-A4B1-477C-BE44-A377855FB2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC31BDC-A4B1-477C-BE44-A377855FB2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC31BDC-A4B1-477C-BE44-A377855FB2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC31BDC-A4B1-477C-BE44-A377855FB2AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{8D63F90D-B0E4-4872-9537-F48F0C2949CB} = {43A42851-A28B-418F-AC62-CA383E12793F}
 		{820ED00B-7F13-4F42-940C-7AD5CC6BE693} = {6D3F8283-B4D0-4DBE-B4DB-00DB5DEAB0D2}
 		{6F7921ED-02E3-4003-B263-AF89027F9C17} = {B82377FF-3EDA-46D9-8F32-628D0B81FE2F}
+		{CDC31BDC-A4B1-477C-BE44-A377855FB2AE} = {64420686-F25E-4E1A-9874-1449CF4A4E89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10869E65-5114-4DAB-8D21-02EBF85767B5}

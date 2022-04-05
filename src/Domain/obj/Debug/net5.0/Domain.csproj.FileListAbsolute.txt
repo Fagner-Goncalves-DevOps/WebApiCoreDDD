@@ -1,0 +1,12 @@
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.pdb
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.pdb
