@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7v/sr41DHSvopWA8sjCkDCeBQEc0jVJ/VLahzdtKCUJYzZrHnglmaldHa7vbOtnpAQytqWcmdgB9YkCIpWzmLA==",
+  "dgSpecHash": "jSTB03GzEUT77eSQKBvEin/ODJ/aE/3yY/X02igG9tqX23TLN1R1jrB9GL7ge2Ca76FW9fCqUERolT9X0vn0sA==",
   "success": true,
   "projectFilePath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Infra.Data\\Infra.Data.csproj",
   "expectedPackageFiles": [

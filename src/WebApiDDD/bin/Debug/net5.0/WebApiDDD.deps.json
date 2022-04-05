@@ -34,6 +34,7 @@
       "WebApiDDD/1.0.0": {
         "dependencies": {
           "Infra.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore.Design": "5.0.15",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",

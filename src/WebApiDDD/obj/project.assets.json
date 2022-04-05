@@ -6002,6 +6002,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Infra.Data >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 5.0.15",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.15",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.15",
@@ -6059,6 +6060,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.15, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

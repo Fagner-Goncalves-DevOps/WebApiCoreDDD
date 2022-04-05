@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "howj7i4S5lChN+oAKwu9GUdmBIuDQMJ0v6fXXihD3l7aZoQNiPrpBR2Go464EY2DDHDUJjHkhrlo+ca3iGsmBw==",
+  "dgSpecHash": "TBY4NglHWtL8PK0HtZbn1hbamlXT/FsNtropnjaRFg0B3cIsJWqksU1PXoGav+Pi+s1PTs1euuhkxD5o+aFnPA==",
   "success": true,
   "projectFilePath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.15\\microsoft.entityframeworkcore.5.0.15.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.15\\microsoft.entityframeworkcore.abstractions.5.0.15.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.15\\microsoft.entityframeworkcore.analyzers.5.0.15.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.15\\microsoft.entityframeworkcore.design.5.0.15.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.15\\microsoft.entityframeworkcore.relational.5.0.15.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -7,9 +7,11 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\WebApiDDD.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\ref\WebApiDDD.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\WebApiDDD.pdb
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Humanizer.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
@@ -61,5 +63,3 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\obj\Debug\net5.0\ref\WebApiDDD.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\obj\Debug\net5.0\WebApiDDD.pdb
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\obj\Debug\net5.0\WebApiDDD.genruntimeconfig.cache
-C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Humanizer.dll
-C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\WebApiDDD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -1,4 +1,6 @@
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.runtimeconfig.json
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.runtimeconfig.dev.json
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\ref\Domain.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\bin\Debug\net5.0\Domain.pdb
@@ -10,3 +12,4 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.pdb
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\Domain\obj\Debug\net5.0\Domain.genruntimeconfig.cache

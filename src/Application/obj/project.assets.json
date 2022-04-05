@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\Application.csproj",
-      "projectName": "Application",
-      "projectPath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\ApplicationApp.csproj",
+      "projectName": "ApplicationApp",
+      "projectPath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\ApplicationApp.csproj",
       "packagesPath": "C:\\Users\\goncalves.fagner\\.nuget\\packages\\",
       "outputPath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\obj\\",
       "projectStyle": "PackageReference",
