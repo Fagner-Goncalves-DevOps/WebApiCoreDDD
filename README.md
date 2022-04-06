@@ -2,4 +2,6 @@
 
 Conceitos Básicos DDD
 
-Implementando Conexão com banco de dados sql, Migration|mapping
+Implementado Conexão com banco de dados sql, Migration|mapping,
+Implementado Basic-migrations-mapping-contextdb-Ef,
+Implementado Ioc
