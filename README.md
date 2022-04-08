@@ -2,7 +2,7 @@
 
 Projeto em Implementação ainda
 
-## Technologies implemented:
+## Tecnologias implementadas:
 
 - ASP.NET 5.0 (with .NET Core 5.0)
 - ASP.NET MVC Core 
@@ -12,13 +12,13 @@ Projeto em Implementação ainda
 - AutoMapper
 - Swagger UI
 
-## que foi Implementando :
+## Que já foi implementado :
 - Implementado Conexão com banco de dados sql, Migration|mapping,
 - Implementado Basic-migrations-mapping-contextdb-Ef,
 - Implementado Ioc
 
 
-## Implementações
+## Implementações Updates
 
 **v1.0 - 01/04/2022**
 - Inicio
