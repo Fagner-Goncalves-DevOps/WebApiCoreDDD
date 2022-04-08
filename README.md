@@ -11,7 +11,7 @@ Projeto em Implementação ainda
 - .NET Core Native DI
 - AutoMapper
 - Swagger UI
-- 
+
 ## que foi Implementando :
 - Implementado Conexão com banco de dados sql, Migration|mapping,
 - Implementado Basic-migrations-mapping-contextdb-Ef,
