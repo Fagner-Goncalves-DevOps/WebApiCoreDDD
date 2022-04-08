@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\WebApiDDD"
   ],
   "SelectedNode": "\\WebApiCoreDDD.sln",
   "PreviewInSolutionExplorer": false

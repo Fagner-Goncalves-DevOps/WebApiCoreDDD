@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{2C1D5C7E-359D-413F-941F-7477272F4A98}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - ServicesApi", "1 - ServicesApi", "{64420686-F25E-4E1A-9874-1449CF4A4E89}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-ServicesApi", "1-ServicesApi", "{64420686-F25E-4E1A-9874-1449CF4A4E89}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{43A42851-A28B-418F-AC62-CA383E12793F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{43A42851-A28B-418F-AC62-CA383E12793F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{6D3F8283-B4D0-4DBE-B4DB-00DB5DEAB0D2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{6D3F8283-B4D0-4DBE-B4DB-00DB5DEAB0D2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{FFBD2D87-7580-455A-AA1E-ABE27B58CBE2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{FFBD2D87-7580-455A-AA1E-ABE27B58CBE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{B82377FF-3EDA-46D9-8F32-628D0B81FE2F}"
 EndProject
@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "src\Infra.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDDD", "src\WebApiDDD\WebApiDDD.csproj", "{CDC31BDC-A4B1-477C-BE44-A377855FB2AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{B60F452B-1AD2-4435-9752-E12A0E3F2BDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{B60F452B-1AD2-4435-9752-E12A0E3F2BDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.IoC", "src\CrossCutting.IoC\CrossCutting.IoC.csproj", "{7F1F7435-051B-41DD-907B-E44FD1AFAA1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCutting.IoC", "src\CrossCutting.IoC\CrossCutting.IoC.csproj", "{7F1F7435-051B-41DD-907B-E44FD1AFAA1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Presentation", "0-Presentation", "{88324C39-A45B-4808-904D-59FE612ECDD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

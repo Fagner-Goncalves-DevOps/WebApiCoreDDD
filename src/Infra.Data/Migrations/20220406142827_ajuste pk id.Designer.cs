@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infra.Data.Migrations
 {
     [DbContext(typeof(SqlDbContext))]
-    [Migration("20220405064324_inicialDbTelecom")]
-    partial class inicialDbTelecom
+    [Migration("20220406142827_ajuste pk id")]
+    partial class ajustepkid
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,10 +23,9 @@ namespace Infra.Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.TabTelecomConsolidado", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("Custo")
                         .HasColumnType("decimal (18,2)");

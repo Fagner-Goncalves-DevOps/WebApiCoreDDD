@@ -1,0 +1,20 @@
+﻿using Application.Dtos;
+using AutoMapper;
+using Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.AutoMapper
+{
+    public class AutoMapperSetup : Profile
+    {
+        public AutoMapperSetup()
+        {
+            CreateMap<TabTelecomConsolidado, TabTelecomConsolidadoDto>().ReverseMap();
+            // .ForMember(x => x.Password, y => y.MapFrom(m => UtilsService.EncryptPassword(m.Password)));
+        }
+    }
+}

@@ -1,4 +1,8 @@
-﻿using Application.Interfaces;
+﻿using Application.Dtos;
+using Application.Interfaces;
+using Application.Services;
+using AutoMapper;
+using Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,21 +16,38 @@ namespace WebApiDDD.Controllers
     [ApiController]
     public class TabTelecomConsolidadoController : ControllerBase
     {
-        
-        private readonly ITabTelecomConsolidadoService _tabTelecomConsolidadoService;
 
+        private readonly ITabTelecomConsolidadoService _tabTelecomConsolidadoService;
+  
         public TabTelecomConsolidadoController(ITabTelecomConsolidadoService tabTelecomConsolidadoService) 
         {
             _tabTelecomConsolidadoService = tabTelecomConsolidadoService;
         }
 
 
-        [HttpGet]
-        public IActionResult Get() 
+        [HttpGet("GetAll-TelecomConsolidado")]
+        public async Task<IEnumerable<TabTelecomConsolidadoDto>> ObterTelecomConsolidado()
         {
-            return Ok("DEU!");
+            return await _tabTelecomConsolidadoService.GetAll();
         }
 
+        [HttpPost("Add-TelecomConsolidado")]
+        public async Task Adicionar(TabTelecomConsolidadoDto tabTelecomConsolidadoDto) 
+        {
+            await _tabTelecomConsolidadoService.Add(tabTelecomConsolidadoDto);
+        }
+
+        [HttpPut("UpDate-TelecomConsolidado")]
+        public async Task Atualizar(TabTelecomConsolidadoDto tabTelecomConsolidadoDto)
+        {
+            await _tabTelecomConsolidadoService.Atualizar(tabTelecomConsolidadoDto);
+        }
+
+        [HttpDelete("Delete-TelecomConsolidado")]
+        public async Task Deletar(TabTelecomConsolidadoDto tabTelecomConsolidadoDto)
+        {
+            await _tabTelecomConsolidadoService.RemoverByTEntity(tabTelecomConsolidadoDto);
+        }
 
     }
 }

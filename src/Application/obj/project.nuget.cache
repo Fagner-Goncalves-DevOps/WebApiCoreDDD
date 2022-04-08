@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "SVwqnqW9d2xmExpVfbpz4OjAGqXaayHwAUWOHL1sOIN2mrrJv1gNARfgeTQWkyLopxdBEEtzhT1MKcobJXGF8w==",
+  "dgSpecHash": "DAsJnUPLSOOjLT+ilXpFnLCHvdalU3i2WDTaPRnNNKe8xIz0nGtnUFiF30/cbqugvhbjmGztyrdj/Cj3PmCZ8Q==",
   "success": true,
   "projectFilePath": "C:\\ProgramData\\Temporario\\GitHubGeral\\AspNetCore\\WebApiCoreDDD\\WebApiCoreDDD\\src\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\goncalves.fagner\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

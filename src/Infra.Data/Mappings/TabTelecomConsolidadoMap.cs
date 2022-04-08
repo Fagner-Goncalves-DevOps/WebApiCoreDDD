@@ -13,7 +13,8 @@ namespace Infra.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<TabTelecomConsolidado> builder)
         {
-            builder.HasKey(p => p.Id);
+            builder.HasKey(key => key.Id);
+            ///builder.HasKey(key => key.IdConsolidado);
 
             builder.Property(p => p.Dia)
                 .IsRequired()

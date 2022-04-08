@@ -21,3 +21,5 @@ CREATE TABLE [dbo].[TabTelecomConsolidado] (
 );
 
 select * from ModeloTelecom.dbo.TabTelecomConsolidado
+
+drop table [TabTelecomConsolidado] 

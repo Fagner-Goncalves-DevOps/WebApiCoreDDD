@@ -21,10 +21,9 @@ namespace Infra.Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.TabTelecomConsolidado", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
 
                     b.Property<decimal>("Custo")
                         .HasColumnType("decimal (18,2)");

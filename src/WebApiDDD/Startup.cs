@@ -1,3 +1,4 @@
+using Application.AutoMapper;
 using CrossCutting.IoC;
 using Infra.Data.Context;
 using Microsoft.AspNetCore.Builder;
@@ -38,12 +39,12 @@ namespace WebApiDDD
             });
 
             NativeDependencyInjectionConfig.RegisterServices(services);
-
+            services.AddAutoMapper(typeof(AutoMapperSetup)); //metodo absoleto
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiDDD", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApi - DDD", Version = "v1" });
             });
         }
 
