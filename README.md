@@ -1,6 +1,6 @@
 # WebApiCoreDDD
 
-Conceitos Básicos DDD
+Projeto em Implementação ainda
 
 ## Technologies implemented:
 
