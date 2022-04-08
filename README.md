@@ -20,6 +20,6 @@ Projeto em Implementação ainda
 
 ## Implementações Updates
 
-**v1.0 - 01/04/2022**
-- Inicio
+**v1.0 - 04/04/2022**
+- Inicio - Implementado Conexão com bancosql, Migration , mapping Entidades,
 
