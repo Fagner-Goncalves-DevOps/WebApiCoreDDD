@@ -2,6 +2,13 @@
 
 Projeto em Implementação ainda
 
+## Que já foi implementado :
+- Implementado Conexão com banco de dados sql, Migration, mapping da entidade
+- Implementado Basic-migrations-mapping-contextdb-Ef
+- Implementado Ioc
+- Implementado AutoMapper
+- Implementado CRUD usando metodos genérico Update,create, Add, Delete
+
 ## Tecnologias implementadas:
 
 - ASP.NET 5.0 (with .NET Core 5.0)
@@ -11,12 +18,6 @@ Projeto em Implementação ainda
 - .NET Core Native DI
 - AutoMapper
 - Swagger UI
-
-## Que já foi implementado :
-- Implementado Conexão com banco de dados sql, Migration|mapping,
-- Implementado Basic-migrations-mapping-contextdb-Ef,
-- Implementado Ioc
-
 
 ## Implementações Updates
 
