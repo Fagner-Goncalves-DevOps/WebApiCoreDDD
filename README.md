@@ -1,4 +1,4 @@
-# WebApiCoreDDD
+# Web Api Core - Domain Driven Design
 
 Projeto em Implementação ainda
 
