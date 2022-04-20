@@ -8,12 +8,14 @@ Projeto em Implementação ainda
 - Implementado Ioc
 - Implementado AutoMapper
 - Implementado CRUD usando metodos genérico Update,create, Add, Delete
+- Implementado Asp Net Core Identity, Basico login e senha
 
 ## Tecnologias implementadas:
 
 - ASP.NET 5.0 (with .NET Core 5.0)
 - ASP.NET MVC Core 
 - ASP.NET WebApi Core with
+- ASP.NET WebApi Core Identity 
 - Entity Framework Core 5.0
 - .NET Core Native DI
 - AutoMapper
