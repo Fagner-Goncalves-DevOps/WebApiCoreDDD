@@ -20,7 +20,7 @@ namespace CrossCutting.IoC
         {
             services.AddScoped<ITabTelecomConsolidadoRepository, TabTelecomConsolidadoRepository>();
             services.AddScoped<ITabTelecomConsolidadoService, TabTelecomConsolidadoService>();
- 
+
         }
     }
 }

@@ -17,3 +17,5 @@ C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\CrossCutting.IoC\obj\Debug\net5.0\CrossCutting.IoC.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\CrossCutting.IoC\obj\Debug\net5.0\ref\CrossCutting.IoC.dll
 C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\CrossCutting.IoC\obj\Debug\net5.0\CrossCutting.IoC.pdb
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\CrossCutting.IoC\bin\Debug\net5.0\CrossCutting.Identity.dll
+C:\ProgramData\Temporario\GitHubGeral\AspNetCore\WebApiCoreDDD\WebApiCoreDDD\src\CrossCutting.IoC\bin\Debug\net5.0\CrossCutting.Identity.pdb

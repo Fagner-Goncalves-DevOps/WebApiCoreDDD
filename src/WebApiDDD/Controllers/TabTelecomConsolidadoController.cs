@@ -3,6 +3,7 @@ using Application.Interfaces;
 using Application.Services;
 using AutoMapper;
 using Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace WebApiDDD.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TabTelecomConsolidadoController : ControllerBase
@@ -25,24 +27,28 @@ namespace WebApiDDD.Controllers
         }
 
 
+        [AllowAnonymous]
         [HttpGet("GetAll-TelecomConsolidado")]
         public async Task<IEnumerable<TabTelecomConsolidadoDto>> ObterTelecomConsolidado()
         {
             return await _tabTelecomConsolidadoService.GetAll();
         }
 
+        [AllowAnonymous]
         [HttpPost("Add-TelecomConsolidado")]
         public async Task Adicionar(TabTelecomConsolidadoDto tabTelecomConsolidadoDto) 
         {
             await _tabTelecomConsolidadoService.Add(tabTelecomConsolidadoDto);
         }
 
+        [AllowAnonymous]
         [HttpPut("UpDate-TelecomConsolidado")]
         public async Task Atualizar(TabTelecomConsolidadoDto tabTelecomConsolidadoDto)
         {
             await _tabTelecomConsolidadoService.Atualizar(tabTelecomConsolidadoDto);
         }
 
+        [AllowAnonymous]
         [HttpDelete("Delete-TelecomConsolidado")]
         public async Task Deletar(TabTelecomConsolidadoDto tabTelecomConsolidadoDto)
         {

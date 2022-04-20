@@ -15,6 +15,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApiDDD.StartupExtensions;
 
 namespace WebApiDDD
 {
@@ -30,23 +31,34 @@ namespace WebApiDDD
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //ver sobre o registro do addindentity dando erro
 
-            services.AddDbContext<SqlDbContext>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")//,
-                        // x => x.MigrationsAssembly("DashTelecom.Api") //  add para funcionar devido as alterações de nomes
-                    ).EnableSensitiveDataLogging();
-            });
 
-            NativeDependencyInjectionConfig.RegisterServices(services);
-            services.AddAutoMapper(typeof(AutoMapperSetup)); //metodo absoleto
+            // ----- Database -----
+            services.AddCustomizedDatabase(Configuration);
+
+            // ----- Auth -----
+            services.AddCustomizedAuth(Configuration);
+
+            // ----- .NET Native DI Abstraction -----
+            RegisterServices(services);
+
+
+            // ----- AutoMapper -----
+            services.AddAutoMapper(typeof(AutoMapperSetup)); //metodo absoleto, deixa assim por enquanto
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApi - DDD", Version = "v1" });
             });
+
+
+
+
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -62,12 +74,21 @@ namespace WebApiDDD
 
             app.UseRouting();
 
+            //app.UseHttpsRedirection();
+            //app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+        }
+
+        private static void RegisterServices(IServiceCollection services) 
+        {
+            // Adding dependencies from another layers (isolated from Presentation)
+            NativeDependencyInjectionConfig.RegisterServices(services);
         }
     }
 }
