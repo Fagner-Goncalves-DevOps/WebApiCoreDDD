@@ -9,6 +9,7 @@ Projeto em Implementação ainda
 - Implementado AutoMapper
 - Implementado CRUD usando metodos genérico Update,create, Add, Delete
 - Implementado Asp Net Core Identity, Basico login e senha
+- Implementado Asp Net Core Identity, JWT
 
 ## Tecnologias implementadas:
 
@@ -16,10 +17,19 @@ Projeto em Implementação ainda
 - ASP.NET MVC Core 
 - ASP.NET WebApi Core with
 - ASP.NET WebApi Core Identity 
+- ASP.NET WebApi Core Identity JWT
 - Entity Framework Core 5.0
 - .NET Core Native DI
 - AutoMapper
 - Swagger UI
+- MSSQL
+
+## Design Patterns
+- Domain Driven Design
+- Repository & Generic Repository
+- Inversion of Control / Dependency injection
+- ORM
+- Options Pattern
 
 ## Implementações Updates
 
