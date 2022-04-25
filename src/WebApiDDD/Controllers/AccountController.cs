@@ -10,26 +10,28 @@ using CrossCutting.Identity.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using WebApiDDD.Controllers;
 
 namespace DDD.Services.Api.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountController : ControllerBase //: ApiController
+    public class AccountController : MainController //ControllerBase //: ApiController
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly IJwtFactory _jwtFactory;
         private readonly IdentitySqlDbContext _dbContext;
+        private readonly IJwtFactory _jwtFactory;
+
 
         public AccountController(
-                                    UserManager<ApplicationUser> userManager,
-                                    SignInManager<ApplicationUser> signInManager,
-                                    RoleManager<IdentityRole> roleManager,
-                                     IJwtFactory jwtFactory,
-                                    IdentitySqlDbContext dbContext
+                                UserManager<ApplicationUser> userManager,
+                                SignInManager<ApplicationUser> signInManager,
+                                RoleManager<IdentityRole> roleManager,
+                                IdentitySqlDbContext dbContext,
+                                IJwtFactory jwtFactory
                                 ) : base() //notifications, mediator
 
         {
@@ -42,24 +44,26 @@ namespace DDD.Services.Api.Controllers
 
         [AllowAnonymous]
         [HttpPost("login")] 
-        public async Task<ActionResult> Login([FromBody] LoginDto model)
+        public async Task<ActionResult> Login(LoginDto model)
         {
-            if (!ModelState.IsValid) 
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var signInResult = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, true);
-
-            if (!signInResult.Succeeded) 
-            {
-               return Ok();
-            }
-            //Pegar usuario Logado para Validação gerando Token
             var appUser = await _userManager.FindByEmailAsync(model.Email);
-            return Ok(await GenerateToken(appUser));
-            // return BadRequest(); usar BadRequest direto para simples validação
 
+            if (signInResult.Succeeded) 
+            {
+                return CustomResponse(await GenerateToken(appUser));
+            }
+
+            if (signInResult.IsLockedOut) 
+            {
+                AdicionarErroProcessamento("Usuário temporariamente Bloqueado por tentativas inválidas");
+                return CustomResponse();
+            }
+
+            AdicionarErroProcessamento("Usuário ou Senha incorretos");
+            return CustomResponse();
         }
 
 
@@ -67,21 +71,22 @@ namespace DDD.Services.Api.Controllers
         [HttpPost("register")]
         public async Task<ActionResult> Register(RegisterDto model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+
             var appUser = new ApplicationUser { UserName = model.Email, Email = model.Email };
             var identityResult = await _userManager.CreateAsync(appUser, model.Password);
 
             if (identityResult.Succeeded) 
             {
-                await _signInManager.SignInAsync(appUser, false);
-                return Ok(await GenerateToken(appUser));
-               // return CustomResponse(await GerarJwt(user.Email));
+                return CustomResponse(await GenerateToken(appUser));
             }
-            return BadRequest();
+            foreach (var error in identityResult.Errors) 
+            {
+                AdicionarErroProcessamento(error.Description);
+            }
+            return CustomResponse();
         }
+
 
         // Gerar token para passar para login
         private async Task<TokenDto> GenerateToken(ApplicationUser appUser)

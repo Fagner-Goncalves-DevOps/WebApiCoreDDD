@@ -15,7 +15,7 @@ using System.Text;
 
 namespace WebApiDDD.StartupExtensions
 {
-    public static class AuthExtension   //JwtIssuerOptions
+    public static class AuthExtension   
     {
         public static IServiceCollection AddCustomizedAuth(this IServiceCollection services, IConfiguration configuration)
         {
@@ -71,7 +71,7 @@ namespace WebApiDDD.StartupExtensions
                 configureOptions.SaveToken = true;
             });
 
-            //
+        
            // AddAuthorization implementar futuramente se precisar
             return services;
         }

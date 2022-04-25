@@ -1,5 +1,6 @@
 ﻿using CrossCutting.Identity.Data;
 using Infra.Data.Context;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,7 +10,7 @@ namespace WebApiDDD.StartupExtensions
 {
     public static class DatabaseExtension
     {                                                                                                                           // não implementamos envio ainda
-        public static IServiceCollection AddCustomizedDatabase(this IServiceCollection services, IConfiguration configuration) // IWebHostEnvironment env
+        public static IServiceCollection AddCustomizedDatabase(this IServiceCollection services, IConfiguration configuration, IWebHostEnvironment env) // IWebHostEnvironment env
         {
             services.AddDbContext<IdentitySqlDbContext>(options => 
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
