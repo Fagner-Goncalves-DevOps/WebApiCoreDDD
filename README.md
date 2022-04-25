@@ -16,10 +16,19 @@ Projeto em Implementação ainda
 - ASP.NET MVC Core 
 - ASP.NET WebApi Core with
 - ASP.NET WebApi Core Identity 
+- ASP.NET WebApi Core Identity JWT
 - Entity Framework Core 5.0
 - .NET Core Native DI
 - AutoMapper
 - Swagger UI
+- MSSQL
+
+# Design Patterns
+- Domain Driven Design
+- Repository & Generic Repository
+- Inversion of Control / Dependency injection
+- ORM
+- Options Pattern
 
 ## Implementações Updates
 
