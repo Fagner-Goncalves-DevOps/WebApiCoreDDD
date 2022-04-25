@@ -15,7 +15,7 @@ namespace CrossCutting.Identity.Data
         { }
 
 
-        //jwt futuramente
+        //JWT RefreshTokens
         //public DbSet<RefreshToken> RefreshTokens { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Application.Services;
+using CrossCutting.Identity.Services;
 using Domain.Entities;
 using Domain.Interfaces;
 using Domain.Interfaces.Generics;
@@ -18,8 +19,14 @@ namespace CrossCutting.IoC
     {
         public static void RegisterServices(IServiceCollection services)
         {
+            // Infra - Data
             services.AddScoped<ITabTelecomConsolidadoRepository, TabTelecomConsolidadoRepository>();
             services.AddScoped<ITabTelecomConsolidadoService, TabTelecomConsolidadoService>();
+
+            // Infra - Identity
+            services.AddSingleton<IJwtFactory, JwtFactory>();
+            // services.AddScoped<IUser, AspNetUser>();Implementar
+
 
         }
     }
