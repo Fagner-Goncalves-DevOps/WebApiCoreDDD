@@ -9,6 +9,7 @@ Projeto em Implementação ainda
 - Implementado AutoMapper
 - Implementado CRUD usando metodos genérico Update,create, Add, Delete
 - Implementado Asp Net Core Identity, Basico login e senha
+- Implementado Asp Net Core Identity, JWT
 
 ## Tecnologias implementadas:
 
