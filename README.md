@@ -10,6 +10,8 @@ Projeto em Implementação ainda
 - Implementado CRUD usando metodos genérico Update,create, Add, Delete
 - Implementado Asp Net Core Identity, Basico login e senha
 - Implementado Asp Net Core Identity, JWT
+- Implementado Refatoração startup class, custom response controller
+
 
 ## Tecnologias implementadas:
 
